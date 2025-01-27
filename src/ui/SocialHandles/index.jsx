@@ -6,7 +6,7 @@ const SocialHandles = () => {
         {socialHandles.map((media,index)=>{
             return (
                 <a href={media.link} target="_blank" className="icon__container social__handle" key={index}>
-                    <span className="tooltip">{media.icon}{media.name}</span>
+                    <span className="flex__center tooltip">{media.icon}{media.name}</span>
                     {media.icon}
                 </a>
             )

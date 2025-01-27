@@ -7,11 +7,11 @@ const ServiceCard = ({title , description , icon, color, colorRGB}) => {
         "--color-primary": color, "--color-primary-rgb": colorRGB
     }}>
         <div className="service__card-top">
-            <div className="blur__overlay ball1"></div>
-            <div className="blur__overlay ball2"></div>
-            <div className="blur__overlay ball3"></div>
-            <div className="blur__overlay ball4"></div>
-            <div className="blur__overlay ball5 flex__center">{icon}</div>
+            <div className="blur__overlay ball  ball1"></div>
+            <div className="blur__overlay ball ball2"></div>
+            <div className="blur__overlay ball ball3"></div>
+            <div className="blur__overlay ball ball4"></div>
+            <div className="blur__overlay ball ball5 flex__center">{icon}</div>
         </div>
         <div className="service__card-middle">
             <h2 className="title">

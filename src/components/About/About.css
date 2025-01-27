@@ -3,7 +3,7 @@
     margin-top: 60px;
 }
 #about .section__wrapper{
-    position: relative;
+    display: grid;
     grid-template-columns: 300px auto;
     gap: 40px;
     border-radius: 20px;
@@ -36,7 +36,7 @@
 #about .skill__group{
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 #about .skill{
@@ -64,8 +64,8 @@
 }
 #about .skill__logo > img{
     object-fit: contain;
-    filter: grayscale(100%);
-    filter: grayscale(1);
+    /* filter: grayscale(100%); */
+    /* filter: grayscale(1); */
 }
 #about .card__ui-item{
     max-width: 200px;
@@ -73,6 +73,8 @@
     bottom: -50px;
     z-index: 0;
 }
+
+/* Responsiveness */
 @media (max-width: 768px) {
     #about .section__wrapper{
         grid-template-columns: 100%;
@@ -82,7 +84,7 @@
         padding-top:  120px;
     }
     #about .right-column{
-        padding: 0;
+        padding: 0px;
         padding-bottom: 40px;
     }
 }

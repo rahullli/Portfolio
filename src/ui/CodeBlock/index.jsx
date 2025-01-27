@@ -6,7 +6,6 @@ import Facts from "../../ui/Facts";
 const CodeBlock = ({ language, code }) => {
   return (
     <div className="code__block">
-      I
       <div className="flex__center dot__container">
         <span className="dot" />
         <span className="dot" />

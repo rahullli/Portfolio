@@ -37,7 +37,7 @@ const Facts = () => {
 
       <div className="fact__item">
         <div className="flex__center">
-          <Odometer value={clients } className="title" />
+          <Odometer value={clients} className="title" />
           <h3 className="title">K</h3>
         </div>
         <p className="label">Satisfied Clients</p>
