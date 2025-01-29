@@ -25,7 +25,9 @@
 }
 #header .profile__photo{
     object-fit: contain;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
+    border-radius: 30%;
+    background-color: aliceblue;
 }
 
 /* Responsiveness */

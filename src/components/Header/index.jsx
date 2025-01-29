@@ -7,8 +7,8 @@ import SocialHandles from "../../ui/SocialHandles";
 import BreathCircle from "../../ui/BreathCircle";
 const code = `
 const developer = { 
-firstName:"Emmaniel", 
-lastName: "Eze"
+firstName:"Rahul", 
+lastName: "Khandelwal"
 aka: "Mr Adinuba",
 hobby: repeat = () =>{ 
   //eat();
@@ -28,7 +28,7 @@ const Header = () => {
             <HeaderTitle />
           </div>
           <div className="column">
-            <img src={profile1} className="profile__photo" alt="" />
+            <img src="https://avatars.githubusercontent.com/u/60139552?v=4" className="profile__photo" alt="" />
           </div>
         </div>
         <div className="card grid lower">
